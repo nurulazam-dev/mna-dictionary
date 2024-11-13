@@ -16,7 +16,7 @@ yarn start
 
 #### Use Library & Framework in Client/Frontend
 
-`React`, `React Router Dom`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,
+`React`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,`React firebase hooks`, `React hook form`,`react query`, `Google firebase`,
 
 #### Use Library & Framework in Server/Backend
 
