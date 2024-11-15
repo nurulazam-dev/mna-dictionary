@@ -80,15 +80,15 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 ---
 
-## Contributions
+### Contributions:
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## License
+### License:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+### Contact
 
 For questions or feedback, please contact [Mohammad Nurul Azam](mailto:nurulazam.dev@gmail.com).
 
