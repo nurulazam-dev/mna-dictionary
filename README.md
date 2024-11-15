@@ -73,6 +73,31 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 ---
 
+## Usage
+
+- **User**: Sign up, log in, and search for words. View definitions and bookmark frequently searched words.
+- **Admin**: Log in to manage dictionary entries (add/edit/delete).
+
+---
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+For questions or feedback, please contact [Mohammad Nurul Azam](mailto:nurulazam.dev@gmail.com).
+
+---
+
 - Run the frontend in dev mood:
 
 ```bash
