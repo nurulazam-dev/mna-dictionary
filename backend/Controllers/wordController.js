@@ -1,4 +1,4 @@
-const Word = require("../models/Word");
+const Word = require("../models/WordSchema");
 
 const searchWord = async (req, res) => {
   const { query } = req.query;
@@ -12,12 +12,13 @@ const searchWord = async (req, res) => {
 const addWord = async (req, res) => {
   const {
     word,
-    definition,
+    pronunciation,
+    wordDefinition,
     partOfSpeech,
-    examples,
+    meanings,
     synonyms,
     antonyms,
-    pronunciation,
+    exampleSentences,
   } = req.body;
 
   const wordExists = await Word.findOne({ word });
@@ -26,12 +27,13 @@ const addWord = async (req, res) => {
 
   const newWord = await Word.create({
     word,
-    definition,
+    pronunciation,
+    wordDefinition,
     partOfSpeech,
-    examples,
+    meanings,
     synonyms,
     antonyms,
-    pronunciation,
+    exampleSentences,
   });
   res.status(201).json({ message: "Word added successfully", newWord });
 };

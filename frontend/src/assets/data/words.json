@@ -1,0 +1,1284 @@
+[
+  {
+    "word": "Abate",
+    "pronunciation": "এবেট",
+    "wordDefinition": "To reduce in amount, degree, or severity.",
+    "partOfSpeech": "Verb",
+    "meanings": ["কমানো", "হ্রাস করা", "শান্ত করা"],
+    "synonyms": ["diminish", "decrease", "subside"],
+    "antonyms": ["increase", "intensify", "amplify"],
+    "exampleSentences": [
+      "The storm abated after a few hours.",
+      "She waited for the pain to abate."
+    ]
+  },
+  {
+    "word": "Aberration",
+    "pronunciation": "অ্যাবেরেশন",
+    "wordDefinition": "A departure from what is normal, usual, or expected.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বিপথগমন", "ভ্রান্তি", "অস্বাভাবিকতা"],
+    "synonyms": ["anomaly", "deviation", "irregularity"],
+    "antonyms": ["normality", "regularity", "conformity"],
+    "exampleSentences": [
+      "The test results showed an aberration.",
+      "His behavior was an aberration from the norm."
+    ]
+  },
+  {
+    "word": "Abhor",
+    "pronunciation": "অ্যাবহর",
+    "wordDefinition": "To regard with disgust and hatred.",
+    "partOfSpeech": "Verb",
+    "meanings": ["ঘৃণা করা", "বিরক্ত হওয়া", "অবজ্ঞা করা"],
+    "synonyms": ["detest", "loathe", "despise"],
+    "antonyms": ["love", "admire", "cherish"],
+    "exampleSentences": [
+      "I abhor violence in any form.",
+      "She abhors being late to meetings."
+    ]
+  },
+  {
+    "word": "Abrasive",
+    "pronunciation": "অ্যাব্রেসিভ",
+    "wordDefinition": "Capable of polishing or cleaning a hard surface by rubbing or grinding.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["ঘর্ষণকারী", "রুক্ষ", "আগ্রাসী"],
+    "synonyms": ["harsh", "rough", "coarse"],
+    "antonyms": ["smooth", "soft", "gentle"],
+    "exampleSentences": [
+      "The abrasive cleaner worked well on the tough stains.",
+      "His abrasive manner alienated his colleagues."
+    ]
+  },
+  {
+    "word": "Abridge",
+    "pronunciation": "অ্যাব্রিজ",
+    "wordDefinition": "To shorten (a book, movie, speech, or other text) without losing the sense.",
+    "partOfSpeech": "Verb",
+    "meanings": ["সংক্ষিপ্ত করা", "ছোট করা", "সংক্ষেপ করা"],
+    "synonyms": ["shorten", "condense", "abbreviate"],
+    "antonyms": ["expand", "lengthen", "extend"],
+    "exampleSentences": [
+      "The editor abridged the novel for the younger audience.",
+      "The rights of citizens should not be abridged."
+    ]
+  },
+  {
+    "word": "Absolve",
+    "pronunciation": "অ্যাবসল্ভ",
+    "wordDefinition": "To set or declare someone free from blame, guilt, or responsibility.",
+    "partOfSpeech": "Verb",
+    "meanings": ["দায়মুক্ত করা", "মুক্তি দেওয়া", "ক্ষমা করা"],
+    "synonyms": ["exonerate", "pardon", "forgive"],
+    "antonyms": ["blame", "condemn", "accuse"],
+    "exampleSentences": [
+      "The priest absolved the sinner of his sins.",
+      "She was absolved from all responsibilities."
+    ]
+  },
+  {
+    "word": "Abstain",
+    "pronunciation": "অ্যাবস্টেইন",
+    "wordDefinition": "To restrain oneself from doing or enjoying something.",
+    "partOfSpeech": "Verb",
+    "meanings": ["বিরত থাকা", "সংযত থাকা", "পরিহার করা"],
+    "synonyms": ["refrain", "desist", "avoid"],
+    "antonyms": ["indulge", "partake", "embrace"],
+    "exampleSentences": [
+      "He decided to abstain from alcohol.",
+      "They agreed to abstain from voting."
+    ]
+  },
+  {
+    "word": "Accolade",
+    "pronunciation": "অ্যাকোলেড",
+    "wordDefinition": "An award or privilege granted as a special honor or as an acknowledgment of merit.",
+    "partOfSpeech": "Noun",
+    "meanings": ["সম্মাননা", "প্রশংসা", "পুরস্কার"],
+    "synonyms": ["honor", "award", "recognition"],
+    "antonyms": ["criticism", "disapproval", "reproach"],
+    "exampleSentences": [
+      "She received an accolade for her achievements.",
+      "The scientist earned many accolades."
+    ]
+  },
+  {
+    "word": "Accost",
+    "pronunciation": "অ্যাকোস্ট",
+    "wordDefinition": "To approach and address someone boldly or aggressively.",
+    "partOfSpeech": "Verb",
+    "meanings": [
+      "সামনে গিয়ে কথা বলা",
+      "সম্মুখীন হওয়া",
+      "আগ্রাসীভাবে যোগাযোগ করা"
+    ],
+    "synonyms": ["confront", "approach", "address"],
+    "antonyms": ["avoid", "evade", "ignore"],
+    "exampleSentences": [
+      "He was accosted by a stranger on the street.",
+      "She was accosted by reporters."
+    ]
+  },
+  {
+    "word": "Acrimonious",
+    "pronunciation": "অ্যাক্রিমোনিয়াস",
+    "wordDefinition": "Typically referring to speech or debate: angry and bitter.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["তীব্র", "কটূক্তিপূর্ণ", "ক্রুদ্ধ"],
+    "synonyms": ["bitter", "caustic", "rancorous"],
+    "antonyms": ["harmonious", "pleasant", "friendly"],
+    "exampleSentences": [
+      "The debate became increasingly acrimonious.",
+      "Their divorce was acrimonious."
+    ]
+  },
+  {
+    "word": "Abate",
+    "pronunciation": "এবেট",
+    "wordDefinition": "To reduce in amount, degree, or severity.",
+    "partOfSpeech": "Verb",
+    "meanings": ["কমানো", "হ্রাস করা", "শান্ত করা"],
+    "synonyms": ["diminish", "decrease", "subside"],
+    "antonyms": ["increase", "intensify", "amplify"],
+    "exampleSentences": [
+      "The storm abated after a few hours.",
+      "She waited for the pain to abate."
+    ]
+  },
+  {
+    "word": "Admonish",
+    "pronunciation": "অ্যাডমনিজ",
+    "wordDefinition": "To warn or reprimand someone firmly.",
+    "partOfSpeech": "Verb",
+    "meanings": ["তীব্রভাবে সতর্ক করা", "শাসন করা", "নির্দেশ দেওয়া"],
+    "synonyms": ["rebuke", "reprimand", "scold"],
+    "antonyms": ["praise", "commend", "applaud"],
+    "exampleSentences": [
+      "The teacher admonished the students for being late.",
+      "She admonished him for his carelessness."
+    ]
+  },
+  {
+    "word": "Adulation",
+    "pronunciation": "অ্যাডুলেশন",
+    "wordDefinition": "Excessive admiration or praise.",
+    "partOfSpeech": "Noun",
+    "meanings": ["অত্যধিক প্রশংসা", "অন্ধ অনুকরণ", "অবিরাম প্রশংসা"],
+    "synonyms": ["flattery", "worship", "adulation"],
+    "antonyms": ["criticism", "disapproval", "condemnation"],
+    "exampleSentences": [
+      "The actor enjoyed the adulation of his fans.",
+      "She was embarrassed by the adulation she received."
+    ]
+  },
+  {
+    "word": "Adversity",
+    "pronunciation": "অ্যাডভারসিটি",
+    "wordDefinition": "A state of hardship or misfortune.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বিপত্তি", "দুর্দশা", "দুর্বিপাক"],
+    "synonyms": ["hardship", "misfortune", "trouble"],
+    "antonyms": ["prosperity", "success", "advantage"],
+    "exampleSentences": [
+      "They faced adversity with courage.",
+      "Adversity taught him valuable lessons."
+    ]
+  },
+  {
+    "word": "Aesthetic",
+    "pronunciation": "অ্যাস্থেটিক",
+    "wordDefinition": "Concerned with beauty or the appreciation of beauty.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["নান্দনিক", "সৌন্দর্যতত্ত্বমূলক", "শৈল্পিক"],
+    "synonyms": ["artistic", "tasteful", "elegant"],
+    "antonyms": ["unattractive", "unaesthetic", "ugly"],
+    "exampleSentences": [
+      "The aesthetic appeal of the painting was undeniable.",
+      "She has an aesthetic sense for interior design."
+    ]
+  },
+  {
+    "word": "Affable",
+    "pronunciation": "অ্যাফেবল",
+    "wordDefinition": "Friendly, good-natured, or easy to talk to.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["মিশুক", "অমায়িক", "সুদর্শন"],
+    "synonyms": ["friendly", "amiable", "genial"],
+    "antonyms": ["unfriendly", "hostile", "rude"],
+    "exampleSentences": [
+      "He was an affable host.",
+      "She greeted everyone with an affable smile."
+    ]
+  },
+  {
+    "word": "Affluent",
+    "pronunciation": "অ্যাফ্লুয়েন্ট",
+    "wordDefinition": "Having a great deal of money; wealthy.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["ধনী", "সমৃদ্ধ", "ঐশ্বর্যশালী"],
+    "synonyms": ["wealthy", "rich", "prosperous"],
+    "antonyms": ["poor", "impoverished", "destitute"],
+    "exampleSentences": [
+      "They live in an affluent neighborhood.",
+      "The affluent society enjoys many luxuries."
+    ]
+  },
+  {
+    "word": "Agnostic",
+    "pronunciation": "অ্যাগনস্টিক",
+    "wordDefinition": "A person who believes that nothing is known or can be known of the existence or nature of God.",
+    "partOfSpeech": "Noun",
+    "meanings": ["সন্দেহবাদী", "অজ্ঞেয়বাদী", "অজ্ঞাতবাদী"],
+    "synonyms": ["skeptic", "doubter", "questioner"],
+    "antonyms": ["believer", "theist", "faithful"],
+    "exampleSentences": [
+      "He identified as agnostic, unsure of the existence of God.",
+      "Agnostic views can lead to deep philosophical debates."
+    ]
+  },
+  {
+    "word": "Alacrity",
+    "pronunciation": "অ্যালাক্রিটি",
+    "wordDefinition": "Brisk and cheerful readiness.",
+    "partOfSpeech": "Noun",
+    "meanings": ["উৎসাহ", "সতেজতা", "স্ফূর্তি"],
+    "synonyms": ["eagerness", "enthusiasm", "willingness"],
+    "antonyms": ["reluctance", "unwillingness", "apathy"],
+    "exampleSentences": [
+      "She accepted the invitation with alacrity.",
+      "He moved with alacrity to complete the task."
+    ]
+  },
+  {
+    "word": "Alleviate",
+    "pronunciation": "অ্যালিভিয়েট",
+    "wordDefinition": "To make (suffering, deficiency, or a problem) less severe.",
+    "partOfSpeech": "Verb",
+    "meanings": ["উপশম করা", "লাঘব করা", "কমানো"],
+    "synonyms": ["relieve", "ease", "mitigate"],
+    "antonyms": ["aggravate", "intensify", "exacerbate"],
+    "exampleSentences": [
+      "The medication helped alleviate the pain.",
+      "Efforts were made to alleviate poverty."
+    ]
+  },
+  {
+    "word": "Ameliorate",
+    "pronunciation": "অ্যামেলিওরেট",
+    "wordDefinition": "To make something bad or unsatisfactory better.",
+    "partOfSpeech": "Verb",
+    "meanings": ["উন্নত করা", "সংশোধন করা", "উন্নয়ন সাধন করা"],
+    "synonyms": ["improve", "enhance", "better"],
+    "antonyms": ["worsen", "deteriorate", "degrade"],
+    "exampleSentences": [
+      "The new policies were designed to ameliorate living conditions.",
+      "Steps were taken to ameliorate the situation."
+    ]
+  },
+  {
+    "word": "Amicable",
+    "pronunciation": "অ্যামিকেবল",
+    "wordDefinition": "Having a spirit of friendliness; without serious disagreement or rancor.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["মৈত্রীপূর্ণ", "বন্ধুত্বপূর্ণ", "মিলনসার"],
+    "synonyms": ["friendly", "cordial", "harmonious"],
+    "antonyms": ["hostile", "unfriendly", "antagonistic"],
+    "exampleSentences": [
+      "Their separation was amicable.",
+      "They reached an amicable agreement."
+    ]
+  },
+  {
+    "word": "Anachronistic",
+    "pronunciation": "অ্যানাক্রোনিস্টিক",
+    "wordDefinition": "Belonging to a period other than that being portrayed.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["কালবৈষম্যপূর্ণ", "কালগত ভুল", "অসামঞ্জস্যপূর্ণ"],
+    "synonyms": ["outdated", "obsolete", "archaic"],
+    "antonyms": ["modern", "current", "contemporary"],
+    "exampleSentences": [
+      "The film's anachronistic costumes were criticized.",
+      "Using a typewriter today seems anachronistic."
+    ]
+  },
+  {
+    "word": "Anecdote",
+    "pronunciation": "অ্যানেকডোট",
+    "wordDefinition": "A short and amusing or interesting story about a real incident or person.",
+    "partOfSpeech": "Noun",
+    "meanings": ["উপাখ্যান", "ছোট গল্প", "রসালো ঘটনা"],
+    "synonyms": ["story", "tale", "narrative"],
+    "antonyms": ["novel", "epic", "chronicle"],
+    "exampleSentences": [
+      "He told an anecdote about his childhood.",
+      "Her anecdotes always entertained the audience."
+    ]
+  },
+  {
+    "word": "Antagonize",
+    "pronunciation": "অ্যান্টাগোনাইজ",
+    "wordDefinition": "Cause someone to become hostile.",
+    "partOfSpeech": "Verb",
+    "meanings": ["প্রতিকূল করা", "শত্রুতা সৃষ্টি করা", "বিরুদ্ধ করা"],
+    "synonyms": ["provoke", "incite", "irritate"],
+    "antonyms": ["pacify", "soothe", "appease"],
+    "exampleSentences": [
+      "His comments antagonized many people.",
+      "She did not want to antagonize her boss."
+    ]
+  },
+  {
+    "word": "Antipathy",
+    "pronunciation": "অ্যান্টিপ্যাথি",
+    "wordDefinition": "A deep-seated feeling of dislike; aversion.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বিদ্বেষ", "অপছন্দ", "অভিমান"],
+    "synonyms": ["hostility", "aversion", "dislike"],
+    "antonyms": ["affection", "sympathy", "liking"],
+    "exampleSentences": [
+      "She felt a strong antipathy towards her boss.",
+      "His antipathy to authority was well known."
+    ]
+  },
+  {
+    "word": "Apathy",
+    "pronunciation": "অ্যাপ্যাথি",
+    "wordDefinition": "Lack of interest, enthusiasm, or concern.",
+    "partOfSpeech": "Noun",
+    "meanings": ["উদাসীনতা", "অনীহা", "উদাসীন অবস্থা"],
+    "synonyms": ["indifference", "unconcern", "lethargy"],
+    "antonyms": ["enthusiasm", "interest", "concern"],
+    "exampleSentences": [
+      "There is widespread apathy among the voters.",
+      "His apathy towards the project was evident."
+    ]
+  },
+  {
+    "word": "Apprehensive",
+    "pronunciation": "অ্যাপ্রিহেনসিভ",
+    "wordDefinition": "Anxious or fearful that something bad or unpleasant will happen.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["আশঙ্কিত", "ভীত", "উদ্বিগ্ন"],
+    "synonyms": ["anxious", "worried", "fearful"],
+    "antonyms": ["confident", "assured", "calm"],
+    "exampleSentences": [
+      "She felt apprehensive about the upcoming exam.",
+      "He was apprehensive of the new changes."
+    ]
+  },
+  {
+    "word": "Arduous",
+    "pronunciation": "আর্ডুয়াস",
+    "wordDefinition": "Involving or requiring strenuous effort; difficult and tiring.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["কঠিন", "শ্রমসাধ্য", "কষ্টকর"],
+    "synonyms": ["difficult", "challenging", "strenuous"],
+    "antonyms": ["easy", "effortless", "simple"],
+    "exampleSentences": [
+      "The journey was long and arduous.",
+      "Climbing the mountain was an arduous task."
+    ]
+  },
+  {
+    "word": "Assiduous",
+    "pronunciation": "অ্যাসিডুয়াস",
+    "wordDefinition": "Showing great care and perseverance.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["পরিশ্রমী", "অধ্যবসায়ী", "অবিরাম পরিশ্রমী"],
+    "synonyms": ["diligent", "industrious", "meticulous"],
+    "antonyms": ["lazy", "negligent", "indifferent"],
+    "exampleSentences": [
+      "He was assiduous in his research.",
+      "Her assiduous efforts paid off."
+    ]
+  },
+  {
+    "word": "Astute",
+    "pronunciation": "অ্যাস্টুট",
+    "wordDefinition": "Having or showing an ability to accurately assess situations or people and turn this to one's advantage.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["চতুর", "বিচক্ষণ", "বুদ্ধিমান"],
+    "synonyms": ["shrewd", "clever", "perceptive"],
+    "antonyms": ["foolish", "ignorant", "naive"],
+    "exampleSentences": [
+      "She made an astute business decision.",
+      "His astute observations helped solve the case."
+    ]
+  },
+  {
+    "word": "Belligerent",
+    "pronunciation": "বেলিজেরেন্ট",
+    "wordDefinition": "Hostile and aggressive.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["যুদ্ধপরায়ণ", "আক্রমণাত্মক", "মারমুখো"],
+    "synonyms": ["hostile", "aggressive", "combative"],
+    "antonyms": ["peaceful", "friendly", "amiable"],
+    "exampleSentences": [
+      "His belligerent attitude caused conflicts.",
+      "The belligerent nations were on the brink of war."
+    ]
+  },
+  {
+    "word": "Benevolent",
+    "pronunciation": "বেনেভলেন্ট",
+    "wordDefinition": "Well meaning and kindly.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["দয়ালু", "পরোপকারী", "কল্যাণময়"],
+    "synonyms": ["kind", "generous", "charitable"],
+    "antonyms": ["malevolent", "unkind", "selfish"],
+    "exampleSentences": [
+      "The benevolent donor gave a large sum to charity.",
+      "She had a benevolent smile."
+    ]
+  },
+  {
+    "word": "Blatant",
+    "pronunciation": "ব্লেটান্ট",
+    "wordDefinition": "Done openly and unashamedly.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["নির্লজ্জ", "প্রকাশ্য", "বেআব্রু"],
+    "synonyms": ["obvious", "unconcealed", "glaring"],
+    "antonyms": ["subtle", "hidden", "concealed"],
+    "exampleSentences": [
+      "His blatant disregard for the rules was shocking.",
+      "The advertisement was a blatant lie."
+    ]
+  },
+  {
+    "word": "Bolster",
+    "pronunciation": "বোলস্টার",
+    "wordDefinition": "To support or strengthen.",
+    "partOfSpeech": "Verb",
+    "meanings": ["সমর্থন করা", "শক্তিশালী করা", "বৃদ্ধি করা"],
+    "synonyms": ["support", "reinforce", "strengthen"],
+    "antonyms": ["weaken", "undermine", "diminish"],
+    "exampleSentences": [
+      "The new evidence bolstered their case.",
+      "He tried to bolster his confidence before the interview."
+    ]
+  },
+  {
+    "word": "Cacophony",
+    "pronunciation": "কাকোফনি",
+    "wordDefinition": "A harsh, discordant mixture of sounds.",
+    "partOfSpeech": "Noun",
+    "meanings": ["কর্কশ শব্দ", "অমিল সুর", "বেসুরো শব্দ"],
+    "synonyms": ["din", "racket", "noise"],
+    "antonyms": ["harmony", "melody", "euphony"],
+    "exampleSentences": [
+      "The cacophony of the city was overwhelming.",
+      "A cacophony of alarm bells rang out."
+    ]
+  },
+  {
+    "word": "Capitulate",
+    "pronunciation": "ক্যাপিটুলেট",
+    "wordDefinition": "Cease to resist an opponent or an unwelcome demand; surrender.",
+    "partOfSpeech": "Verb",
+    "meanings": ["আত্মসমর্পণ করা", "বশ্যতা স্বীকার করা", "হার মানা"],
+    "synonyms": ["surrender", "yield", "submit"],
+    "antonyms": ["resist", "defy", "oppose"],
+    "exampleSentences": [
+      "The army was forced to capitulate.",
+      "After hours of negotiation, they finally capitulated."
+    ]
+  },
+  {
+    "word": "Caustic",
+    "pronunciation": "কস্টিক",
+    "wordDefinition": "Able to burn or corrode organic tissue by chemical action; sarcastic in a scathing and bitter way.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["দাহ্য", "জ্বালাময়", "কটু"],
+    "synonyms": ["corrosive", "abrasive", "sarcastic"],
+    "antonyms": ["mild", "gentle", "kind"],
+    "exampleSentences": [
+      "Her caustic remarks hurt his feelings.",
+      "The chemical was highly caustic."
+    ]
+  },
+  {
+    "word": "Chastise",
+    "pronunciation": "চ্যাস্টাইজ",
+    "wordDefinition": "To rebuke or reprimand severely.",
+    "partOfSpeech": "Verb",
+    "meanings": ["গালাগালি করা", "কঠোরভাবে তিরস্কার করা", "বকাঝকা করা"],
+    "synonyms": ["scold", "rebuke", "reprimand"],
+    "antonyms": ["praise", "commend", "applaud"],
+    "exampleSentences": [
+      "The teacher chastised the students for their behavior.",
+      "He was chastised for arriving late."
+    ]
+  },
+  {
+    "word": "Coerce",
+    "pronunciation": "কোয়ার্স",
+    "wordDefinition": "To persuade an unwilling person to do something by using force or threats.",
+    "partOfSpeech": "Verb",
+    "meanings": ["জোরপূর্বক করানো", "বাধ্য করা", "শক্তি প্রয়োগ করা"],
+    "synonyms": ["compel", "force", "pressure"],
+    "antonyms": ["persuade", "convince", "encourage"],
+    "exampleSentences": [
+      "They were coerced into signing the agreement.",
+      "He was coerced into making a confession."
+    ]
+  },
+  {
+    "word": "Cogent",
+    "pronunciation": "কোজেন্ট",
+    "wordDefinition": "Clear, logical, and convincing.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["যুক্তিসম্মত", "বাধ্যতামূলক", "জোরালো"],
+    "synonyms": ["convincing", "persuasive", "compelling"],
+    "antonyms": ["unconvincing", "ineffective", "weak"],
+    "exampleSentences": [
+      "Her argument was cogent and well presented.",
+      "He provided cogent evidence for his claims."
+    ]
+  },
+  {
+    "word": "Daunt",
+    "pronunciation": "ডন্ট",
+    "wordDefinition": "Make (someone) feel intimidated or apprehensive.",
+    "partOfSpeech": "Verb",
+    "meanings": ["ভয় দেখানো", "দমিয়ে দেওয়া", "অবসাদগ্রস্ত করা"],
+    "synonyms": ["intimidate", "discourage", "dismay"],
+    "antonyms": ["encourage", "hearten", "inspire"],
+    "exampleSentences": [
+      "The difficult task did not daunt him.",
+      "She was not daunted by the challenge."
+    ]
+  },
+  {
+    "word": "Debilitate",
+    "pronunciation": "ডিবিলিটেট",
+    "wordDefinition": "Make (someone) weak and infirm.",
+    "partOfSpeech": "Verb",
+    "meanings": ["দুর্বল করা", "অশক্ত করা", "শক্তিহীন করা"],
+    "synonyms": ["weaken", "enfeeble", "sap"],
+    "antonyms": ["strengthen", "invigorate", "fortify"],
+    "exampleSentences": [
+      "The disease debilitated him over time.",
+      "The long journey debilitated the travelers."
+    ]
+  },
+  {
+    "word": "Decipher",
+    "pronunciation": "ডিসাইফার",
+    "wordDefinition": "Convert (a text written in code, or a coded signal) into normal language.",
+    "partOfSpeech": "Verb",
+    "meanings": ["ভেদ করা", "পড়া", "উদ্ধার করা"],
+    "synonyms": ["decode", "interpret", "translate"],
+    "antonyms": ["encode", "conceal", "encrypt"],
+    "exampleSentences": [
+      "They were able to decipher the ancient script.",
+      "She deciphered the hidden message in the letter."
+    ]
+  },
+  {
+    "word": "Defunct",
+    "pronunciation": "ডিফাংক্ট",
+    "wordDefinition": "No longer existing or functioning.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অকার্যকর", "বিলুপ্ত", "প্রাচীন"],
+    "synonyms": ["obsolete", "extinct", "disused"],
+    "antonyms": ["functional", "operational", "existing"],
+    "exampleSentences": [
+      "The factory is now defunct.",
+      "Many old traditions have become defunct."
+    ]
+  },
+  {
+    "word": "Deleterious",
+    "pronunciation": "ডেলিটারিয়াস",
+    "wordDefinition": "Causing harm or damage.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["ক্ষতিকর", "বিধ্বংসী", "ধ্বংসাত্মক"],
+    "synonyms": ["harmful", "detrimental", "injurious"],
+    "antonyms": ["beneficial", "advantageous", "helpful"],
+    "exampleSentences": [
+      "Smoking has deleterious effects on health.",
+      "The policy changes had deleterious consequences."
+    ]
+  },
+  {
+    "word": "Ebullient",
+    "pronunciation": "ইবুলিয়েন্ট",
+    "wordDefinition": "Cheerful and full of energy.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["উদ্দীপ্ত", "আনন্দপূর্ণ", "উচ্ছ্বসিত"],
+    "synonyms": ["exuberant", "enthusiastic", "vivacious"],
+    "antonyms": ["depressed", "dispirited", "downcast"],
+    "exampleSentences": [
+      "She was ebullient after receiving the award.",
+      "His ebullient personality made him popular."
+    ]
+  },
+  {
+    "word": "Eclectic",
+    "pronunciation": "ইক্লেক্টিক",
+    "wordDefinition": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["বিবিধ উৎস হতে সংগৃহীত", "বাছাই করা", "বিচিত্র"],
+    "synonyms": ["diverse", "varied", "wide-ranging"],
+    "antonyms": ["narrow", "specific", "homogeneous"],
+    "exampleSentences": [
+      "Her musical tastes are eclectic.",
+      "The decor was an eclectic mix of modern and vintage."
+    ]
+  },
+  {
+    "word": "Efface",
+    "pronunciation": "ইফেস",
+    "wordDefinition": "Erase (a mark) from a surface.",
+    "partOfSpeech": "Verb",
+    "meanings": ["মুছে ফেলা", "নির্বাপিত করা", "অদৃশ্য করা"],
+    "synonyms": ["erase", "remove", "obliterate"],
+    "antonyms": ["create", "build", "establish"],
+    "exampleSentences": [
+      "The inscription was effaced over time.",
+      "He tried to efface all memories of the incident."
+    ]
+  },
+  {
+    "word": "Elucidate",
+    "pronunciation": "এলুসিডেট",
+    "wordDefinition": "Make (something) clear; explain.",
+    "partOfSpeech": "Verb",
+    "meanings": ["ব্যাখ্যা করা", "স্পষ্ট করা", "বর্ণনা করা"],
+    "synonyms": ["explain", "clarify", "illuminate"],
+    "antonyms": ["confuse", "obscure", "muddle"],
+    "exampleSentences": [
+      "The professor elucidated the complex theory.",
+      "She asked him to elucidate his point."
+    ]
+  },
+  {
+    "word": "Empathy",
+    "pronunciation": "এমপ্যাথি",
+    "wordDefinition": "The ability to understand and share the feelings of another.",
+    "partOfSpeech": "Noun",
+    "meanings": ["সহানুভূতি", "অনুভূতির সাথে সমব্যথী হওয়া", "অনুকম্পা"],
+    "synonyms": ["compassion", "sympathy", "understanding"],
+    "antonyms": ["indifference", "apathy", "insensitivity"],
+    "exampleSentences": [
+      "She felt great empathy for the homeless.",
+      "Empathy is an important trait for a counselor."
+    ]
+  },
+  {
+    "word": "Eradicate",
+    "pronunciation": "ইরাডিকেট",
+    "wordDefinition": "Destroy completely; put an end to.",
+    "partOfSpeech": "Verb",
+    "meanings": ["উচ্ছেদ করা", "সম্পূর্ণরূপে ধ্বংস করা", "বিলোপ করা"],
+    "synonyms": ["eliminate", "remove", "exterminate"],
+    "antonyms": ["establish", "create", "build"],
+    "exampleSentences": [
+      "They worked to eradicate the disease.",
+      "The campaign aims to eradicate poverty."
+    ]
+  },
+  {
+    "word": "Exacerbate",
+    "pronunciation": "এক্সাসারবেট",
+    "wordDefinition": "Make (a problem, bad situation, or negative feeling) worse.",
+    "partOfSpeech": "Verb",
+    "meanings": ["উত্তেজিত করা", "বাড়িয়ে তোলা", "খারাপ করা"],
+    "synonyms": ["worsen", "aggravate", "intensify"],
+    "antonyms": ["alleviate", "ease", "improve"],
+    "exampleSentences": [
+      "His comments only exacerbated the situation.",
+      "The new policy could exacerbate the current issues."
+    ]
+  },
+  {
+    "word": "Facetious",
+    "pronunciation": "ফাসিটিয়াস",
+    "wordDefinition": "Treating serious issues with deliberately inappropriate humor; flippant.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["রসিক", "মজা করে বলা", "হাস্যকর"],
+    "synonyms": ["flippant", "glib", "joking"],
+    "antonyms": ["serious", "earnest", "sincere"],
+    "exampleSentences": [
+      "She made a facetious remark.",
+      "His facetious attitude annoyed the group."
+    ]
+  },
+  {
+    "word": "Garrulous",
+    "pronunciation": "গ্যারুলাস",
+    "wordDefinition": "Excessively talkative, especially on trivial matters.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["বাচাল", "বহুকথক", "আলাপী"],
+    "synonyms": ["talkative", "loquacious", "chatty"],
+    "antonyms": ["taciturn", "reticent", "silent"],
+    "exampleSentences": [
+      "He became more garrulous after drinking a few glasses of wine.",
+      "Her garrulous nature made her popular at parties."
+    ]
+  },
+  {
+    "word": "Grandiose",
+    "pronunciation": "গ্র্যান্ডিওজ",
+    "wordDefinition": "Impressive or magnificent in appearance or style, especially pretentiously so.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["আড়ম্বরপূর্ণ", "অতিশয় মহান", "মহিমান্বিত"],
+    "synonyms": ["magnificent", "imposing", "majestic"],
+    "antonyms": ["humble", "modest", "simple"],
+    "exampleSentences": [
+      "The palace was grandiose with its marble floors and gold ceilings.",
+      "He had grandiose plans for the company's future."
+    ]
+  },
+  {
+    "word": "Gregarious",
+    "pronunciation": "গ্রেগারিয়াস",
+    "wordDefinition": "Fond of company; sociable.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["মিশুক", "সামাজিক", "দলপ্রিয়"],
+    "synonyms": ["sociable", "outgoing", "extroverted"],
+    "antonyms": ["introverted", "reserved", "reclusive"],
+    "exampleSentences": [
+      "She was a gregarious and outgoing person.",
+      "Gregarious animals like to live in groups."
+    ]
+  },
+  {
+    "word": "Hackneyed",
+    "pronunciation": "হ্যাকনিড",
+    "wordDefinition": "Lacking in freshness or originality.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["বহুল ব্যবহৃত", "বস্তাপচা", "ঘষা-পিটানো"],
+    "synonyms": ["overused", "clichéd", "trite"],
+    "antonyms": ["original", "fresh", "novel"],
+    "exampleSentences": [
+      "The hackneyed plot made the movie predictable.",
+      "She avoided using hackneyed phrases in her writing."
+    ]
+  },
+  {
+    "word": "Hapless",
+    "pronunciation": "হ্যাপলেস",
+    "wordDefinition": "Unfortunate.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["দুর্ভাগা", "অপেক্ষাকৃত", "অভাগা"],
+    "synonyms": ["unlucky", "ill-fated", "miserable"],
+    "antonyms": ["fortunate", "lucky", "blessed"],
+    "exampleSentences": [
+      "The hapless student failed the exam despite studying hard.",
+      "His hapless attempts to fix the car only made it worse."
+    ]
+  },
+  {
+    "word": "Harangue",
+    "pronunciation": "হারাঙ্গ",
+    "wordDefinition": "A lengthy and aggressive speech.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বক্তৃতা", "তীক্ষ্ণ ভাষণ", "উপদেশ"],
+    "synonyms": ["tirade", "rant", "lecture"],
+    "antonyms": ["praise", "compliment", "commendation"],
+    "exampleSentences": [
+      "He delivered a long harangue about the evils of alcohol.",
+      "The politician's harangue was criticized for its harsh tone."
+    ]
+  },
+  {
+    "word": "Iconoclast",
+    "pronunciation": "আইকনোক্লাস্ট",
+    "wordDefinition": "A person who attacks cherished beliefs or institutions.",
+    "partOfSpeech": "Noun",
+    "meanings": ["প্রতিমাভঙ্গকারী", "ধর্মবিরোধী", "সংস্কারবিরোধী"],
+    "synonyms": ["rebel", "dissenter", "nonconformist"],
+    "antonyms": ["conformist", "traditionalist", "conservative"],
+    "exampleSentences": [
+      "The iconoclast challenged the long-held traditions of the society.",
+      "As an iconoclast, he was always questioning authority."
+    ]
+  },
+  {
+    "word": "Ignominious",
+    "pronunciation": "ইগনোমিনিয়াস",
+    "wordDefinition": "Deserving or causing public disgrace or shame.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অপমানজনক", "লজ্জাজনক", "অবমাননাকর"],
+    "synonyms": ["humiliating", "disgraceful", "shameful"],
+    "antonyms": ["honorable", "glorious", "respectable"],
+    "exampleSentences": [
+      "His ignominious defeat was a blow to his reputation.",
+      "The team suffered an ignominious loss."
+    ]
+  },
+  {
+    "word": "Imminent",
+    "pronunciation": "ইমিনেন্ট",
+    "wordDefinition": "About to happen.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["আসন্ন", "নিকটবর্তী", "অতি নিকটবর্তী"],
+    "synonyms": ["impending", "forthcoming", "approaching"],
+    "antonyms": ["distant", "remote", "unlikely"],
+    "exampleSentences": [
+      "The storm was imminent and everyone took shelter.",
+      "His arrival was imminent."
+    ]
+  },
+  {
+    "word": "Impassive",
+    "pronunciation": "ইমপ্যাসিভ",
+    "wordDefinition": "Not feeling or showing emotion.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["নির্বিকার", "অস্পষ্ট", "অভিব্যক্তিহীন"],
+    "synonyms": ["emotionless", "unfeeling", "stoic"],
+    "antonyms": ["emotional", "expressive", "demonstrative"],
+    "exampleSentences": [
+      "He remained impassive during the trial.",
+      "Her impassive expression gave nothing away."
+    ]
+  },
+  {
+    "word": "Juxtapose",
+    "pronunciation": "জাক্সটাপোজ",
+    "wordDefinition": "Place or deal with close together for contrasting effect.",
+    "partOfSpeech": "Verb",
+    "meanings": ["পাশাপাশি স্থাপন করা", "কাছে রাখা", "সন্নিবেশিত করা"],
+    "synonyms": ["compare", "contrast", "collocate"],
+    "antonyms": ["separate", "divide", "detach"],
+    "exampleSentences": [
+      "The exhibition juxtaposes modern art with classical sculptures.",
+      "Juxtaposing the two ideas highlighted their differences."
+    ]
+  },
+  {
+    "word": "Keen",
+    "pronunciation": "কিন",
+    "wordDefinition": "Having or showing eagerness or enthusiasm.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["উত্সাহী", "তীক্ষ্ণ", "কৌতূহলী"],
+    "synonyms": ["eager", "enthusiastic", "avid"],
+    "antonyms": ["uninterested", "apathetic", "indifferent"],
+    "exampleSentences": [
+      "She was keen to start her new job.",
+      "He is a keen observer of human behavior."
+    ]
+  },
+  {
+    "word": "Kudos",
+    "pronunciation": "কুডোস",
+    "wordDefinition": "Praise and honor received for an achievement.",
+    "partOfSpeech": "Noun",
+    "meanings": ["সুনাম", "প্রশংসা", "সম্মান"],
+    "synonyms": ["praise", "glory", "acclaim"],
+    "antonyms": ["criticism", "disapproval", "condemnation"],
+    "exampleSentences": [
+      "He received kudos for his innovative ideas.",
+      "Kudos to everyone who helped make this event a success."
+    ]
+  },
+  {
+    "word": "Lament",
+    "pronunciation": "ল্যামেন্ট",
+    "wordDefinition": "A passionate expression of grief or sorrow.",
+    "partOfSpeech": "Verb",
+    "meanings": ["বিলাপ করা", "শোক প্রকাশ করা", "দুঃখিত হওয়া"],
+    "synonyms": ["mourn", "grieve", "bewail"],
+    "antonyms": ["celebrate", "rejoice", "applaud"],
+    "exampleSentences": [
+      "She lamented the loss of her friend.",
+      "They lamented over the tragedy."
+    ]
+  },
+  {
+    "word": "Lavish",
+    "pronunciation": "ল্যাভিশ",
+    "wordDefinition": "Sumptuously rich, elaborate, or luxurious.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["বেহিসাবি", "অমিতব্যয়ী", "অতিশয় ব্যয়বহুল"],
+    "synonyms": ["luxurious", "opulent", "extravagant"],
+    "antonyms": ["meager", "frugal", "sparse"],
+    "exampleSentences": [
+      "They lived in a lavish mansion.",
+      "The lavish party impressed all the guests."
+    ]
+  },
+  {
+    "word": "Lenient",
+    "pronunciation": "লিনিয়েন্ট",
+    "wordDefinition": "Permissive, merciful, or tolerant.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["সহনশীল", "উদার", "নরম"],
+    "synonyms": ["merciful", "tolerant", "forgiving"],
+    "antonyms": ["strict", "severe", "harsh"],
+    "exampleSentences": [
+      "The teacher was lenient with the students.",
+      "His lenient approach earned him respect."
+    ]
+  },
+  {
+    "word": "Lethargic",
+    "pronunciation": "লেথারজিক",
+    "wordDefinition": "Affected by lethargy; sluggish and apathetic.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অবসন্ন", "অলস", "উদাসীন"],
+    "synonyms": ["sluggish", "inactive", "languid"],
+    "antonyms": ["energetic", "active", "vivacious"],
+    "exampleSentences": [
+      "The heat made everyone lethargic.",
+      "He felt lethargic after the long flight."
+    ]
+  },
+  {
+    "word": "Magnanimous",
+    "pronunciation": "ম্যাগন্যানিমাস",
+    "wordDefinition": "Generous or forgiving, especially towards a rival or less powerful person.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["মহৎ", "উদার", "মহানুভব"],
+    "synonyms": ["generous", "noble", "forgiving"],
+    "antonyms": ["selfish", "petty", "mean"],
+    "exampleSentences": [
+      "She was magnanimous in victory.",
+      "His magnanimous gesture won everyone's admiration."
+    ]
+  },
+  {
+    "word": "Malevolent",
+    "pronunciation": "ম্যালোভেলেন্ট",
+    "wordDefinition": "Having or showing a wish to do evil to others.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["দুরভিসন্ধিপূর্ণ", "দুরাশাপূর্ণ", "অশুভ"],
+    "synonyms": ["malicious", "vindictive", "spiteful"],
+    "antonyms": ["benevolent", "kind", "compassionate"],
+    "exampleSentences": [
+      "His malevolent stare frightened her.",
+      "She acted with malevolent intentions."
+    ]
+  },
+  {
+    "word": "Mediocre",
+    "pronunciation": "মিডিওকার",
+    "wordDefinition": "Of only moderate quality; not very good.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["গড়", "মাঝারি", "সাধারণ"],
+    "synonyms": ["average", "ordinary", "commonplace"],
+    "antonyms": ["exceptional", "extraordinary", "remarkable"],
+    "exampleSentences": [
+      "The performance was mediocre at best.",
+      "He was disappointed with his mediocre results."
+    ]
+  },
+  {
+    "word": "Meticulous",
+    "pronunciation": "মেটিকিউলাস",
+    "wordDefinition": "Showing great attention to detail; very careful and precise.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["খুঁতখুঁতে", "যত্নবান", "নিপুণ"],
+    "synonyms": ["careful", "diligent", "scrupulous"],
+    "antonyms": ["careless", "sloppy", "negligent"],
+    "exampleSentences": [
+      "She was meticulous in her work.",
+      "His meticulous planning ensured success."
+    ]
+  },
+  {
+    "word": "Nefarious",
+    "pronunciation": "নেফারিয়াস",
+    "wordDefinition": "Wicked or criminal.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অধার্মিক", "দুর্বৃত্ত", "অশুভ"],
+    "synonyms": ["wicked", "evil", "villainous"],
+    "antonyms": ["righteous", "honorable", "virtuous"],
+    "exampleSentences": [
+      "The nefarious activities of the criminal gang were exposed.",
+      "His nefarious plans were thwarted."
+    ]
+  },
+  {
+    "word": "Nostalgia",
+    "pronunciation": "নস্টালজিয়া",
+    "wordDefinition": "A sentimental longing or wistful affection for the past.",
+    "partOfSpeech": "Noun",
+    "meanings": ["স্মৃতিমেদুরতা", "পুরোনো দিনের কথা", "আকুলতা"],
+    "synonyms": ["reminiscence", "yearning", "longing"],
+    "antonyms": ["indifference", "forgetfulness", "disinterest"],
+    "exampleSentences": [
+      "She was filled with nostalgia for her college days.",
+      "The old photographs gave him a sense of nostalgia."
+    ]
+  },
+  {
+    "word": "Oblivious",
+    "pronunciation": "অব্লিভিয়াস",
+    "wordDefinition": "Not aware of or not concerned about what is happening around one.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অন্যমনস্ক", "অসচেতন", "ভুলে যাওয়া"],
+    "synonyms": ["unaware", "ignorant", "unmindful"],
+    "antonyms": ["aware", "conscious", "mindful"],
+    "exampleSentences": [
+      "She was oblivious to the noise around her.",
+      "He was oblivious of the danger ahead."
+    ]
+  },
+  {
+    "word": "Obstinate",
+    "pronunciation": "অবস্টিনেট",
+    "wordDefinition": "Stubbornly refusing to change one's opinion or chosen course of action, despite attempts to persuade one to do so.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["একগুঁয়ে", "জেদি", "অবাধ্য"],
+    "synonyms": ["stubborn", "inflexible", "unyielding"],
+    "antonyms": ["compliant", "flexible", "yielding"],
+    "exampleSentences": [
+      "He was too obstinate to admit he was wrong.",
+      "Her obstinate refusal frustrated everyone."
+    ]
+  },
+  {
+    "word": "Omnipotent",
+    "pronunciation": "অমনিপোটেন্ট",
+    "wordDefinition": "Having unlimited power; able to do anything.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["সর্বশক্তিমান", "অসীম ক্ষমতাসম্পন্ন", "অপ্রতিরোধ্য"],
+    "synonyms": ["all-powerful", "almighty", "supreme"],
+    "antonyms": ["powerless", "weak", "impotent"],
+    "exampleSentences": [
+      "The ruler was seen as an omnipotent leader.",
+      "In mythology, gods are often depicted as omnipotent."
+    ]
+  },
+  {
+    "word": "Opulent",
+    "pronunciation": "অপুলেন্ট",
+    "wordDefinition": "Ostentatiously rich and luxurious or lavish.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["ধনসম্পন্ন", "ঐশ্বর্যশালী", "বিলাসবহুল"],
+    "synonyms": ["luxurious", "wealthy", "affluent"],
+    "antonyms": ["poor", "destitute", "impoverished"],
+    "exampleSentences": [
+      "They lived an opulent lifestyle.",
+      "The opulent decor of the palace was breathtaking."
+    ]
+  },
+  {
+    "word": "Ostentatious",
+    "pronunciation": "অস্টেন্টেশাস",
+    "wordDefinition": "Characterized by vulgar or pretentious display; designed to impress or attract notice.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অলংকারপূর্ণ", "চটকদার", "জাঁকজমকপূর্ণ"],
+    "synonyms": ["showy", "pretentious", "flamboyant"],
+    "antonyms": ["modest", "humble", "reserved"],
+    "exampleSentences": [
+      "Her ostentatious jewelry attracted everyone's attention.",
+      "The ostentatious display of wealth was criticized."
+    ]
+  },
+  {
+    "word": "Palpable",
+    "pronunciation": "প্যাল্পেবল",
+    "wordDefinition": "Able to be touched or felt.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["স্পর্শযোগ্য", "উপলব্ধ", "অনুভূতিশীল"],
+    "synonyms": ["tangible", "perceptible", "detectable"],
+    "antonyms": ["intangible", "imperceptible", "invisible"],
+    "exampleSentences": [
+      "The tension in the room was palpable.",
+      "His disappointment was palpable."
+    ]
+  },
+  {
+    "word": "Pandemic",
+    "pronunciation": "প্যান্ডেমিক",
+    "wordDefinition": "An outbreak of a disease prevalent over a whole country or the world.",
+    "partOfSpeech": "Noun",
+    "meanings": ["মহামারী", "বিশ্বমারী", "ব্যাপক সংক্রমণ"],
+    "synonyms": ["epidemic", "outbreak", "plague"],
+    "antonyms": ["endemic", "localized", "contained"],
+    "exampleSentences": [
+      "The COVID-19 pandemic affected the entire world.",
+      "Measures were taken to control the pandemic."
+    ]
+  },
+  {
+    "word": "Paradox",
+    "pronunciation": "প্যারাডক্স",
+    "wordDefinition": "A statement that contradicts itself but might be true.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বিরোধাভাস", "স্ববিরোধী বক্তব্য", "বিরোধী বাস্তবতা"],
+    "synonyms": ["contradiction", "inconsistency", "dilemma"],
+    "antonyms": ["certainty", "consistency", "harmony"],
+    "exampleSentences": [
+      "The paradox of the situation puzzled everyone.",
+      "Her statement seemed like a paradox."
+    ]
+  },
+  {
+    "word": "Paragon",
+    "pronunciation": "প্যারাগন",
+    "wordDefinition": "A person or thing regarded as a perfect example of a particular quality.",
+    "partOfSpeech": "Noun",
+    "meanings": ["মূর্ত প্রতীক", "আদর্শ", "উত্তম উদাহরণ"],
+    "synonyms": ["model", "exemplar", "ideal"],
+    "antonyms": ["flaw", "imperfection", "defect"],
+    "exampleSentences": [
+      "He was considered a paragon of virtue.",
+      "Her work is a paragon of excellence."
+    ]
+  },
+  {
+    "word": "Quaint",
+    "pronunciation": "কোয়েইন্ট",
+    "wordDefinition": "Attractively unusual or old-fashioned.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অদ্ভুত", "বিলক্ষণ", "অস্বাভাবিক"],
+    "synonyms": ["charming", "picturesque", "old-fashioned"],
+    "antonyms": ["modern", "contemporary", "ordinary"],
+    "exampleSentences": [
+      "The village had a quaint charm.",
+      "Her quaint ideas intrigued everyone."
+    ]
+  },
+  {
+    "word": "Querulous",
+    "pronunciation": "কুয়েরুলাস",
+    "wordDefinition": "Complaining in a petulant or whining manner.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অসন্তুষ্ট", "খিটখিটে", "অভিযোগকারী"],
+    "synonyms": ["petulant", "complaining", "grumbling"],
+    "antonyms": ["cheerful", "happy", "content"],
+    "exampleSentences": [
+      "He became querulous in his old age.",
+      "Her querulous nature annoyed everyone."
+    ]
+  },
+  {
+    "word": "Recalcitrant",
+    "pronunciation": "রিক্যালসিট্রান্ট",
+    "wordDefinition": "Having an obstinately uncooperative attitude towards authority or discipline.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অবাধ্য", "অবিনয়ী", "অবাধ্য"],
+    "synonyms": ["uncooperative", "defiant", "rebellious"],
+    "antonyms": ["compliant", "obedient", "submissive"],
+    "exampleSentences": [
+      "The recalcitrant student refused to follow the rules.",
+      "Her recalcitrant behavior caused problems in the group."
+    ]
+  },
+  {
+    "word": "Sardonic",
+    "pronunciation": "সারডনিক",
+    "wordDefinition": "Grimly mocking or cynical.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["বিদ্রুপপূর্ণ", "উপহাসপূর্ণ", "তিক্ত"],
+    "synonyms": ["mocking", "sarcastic", "scornful"],
+    "antonyms": ["sincere", "earnest", "genuine"],
+    "exampleSentences": [
+      "He gave a sardonic smile.",
+      "Her sardonic comments made everyone uncomfortable."
+    ]
+  },
+  {
+    "word": "Tenacious",
+    "pronunciation": "টেনেসিয়াস",
+    "wordDefinition": "Tending to keep a firm hold of something; clinging or adhering closely.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["অনমনীয়", "জিদপূর্ণ", "অবিচল"],
+    "synonyms": ["persistent", "determined", "steadfast"],
+    "antonyms": ["yielding", "weak", "relenting"],
+    "exampleSentences": [
+      "She is known for her tenacious spirit.",
+      "His tenacious grip on the rope saved his life."
+    ]
+  },
+  {
+    "word": "Ubiquitous",
+    "pronunciation": "উবিকুইটাস",
+    "wordDefinition": "Present, appearing, or found everywhere.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["সর্বব্যাপী", "সর্বত্র বিদ্যমান", "সর্বত্র বিরাজমান"],
+    "synonyms": ["omnipresent", "ever-present", "pervasive"],
+    "antonyms": ["rare", "scarce", "uncommon"],
+    "exampleSentences": [
+      "Smartphones are ubiquitous in modern society.",
+      "The ubiquitous nature of fast food is concerning."
+    ]
+  },
+  {
+    "word": "Vacillate",
+    "pronunciation": "ভ্যাসিলেট",
+    "wordDefinition": "Alternate or waver between different opinions or actions; be indecisive.",
+    "partOfSpeech": "Verb",
+    "meanings": ["দ্বিধাগ্রস্ত হওয়া", "দুলতে থাকা", "অস্থির হওয়া"],
+    "synonyms": ["waver", "oscillate", "hesitate"],
+    "antonyms": ["decide", "determine", "resolve"],
+    "exampleSentences": [
+      "He vacillated between joining the army or going to college.",
+      "The politician vacillated on important issues."
+    ]
+  },
+  {
+    "word": "Voracious",
+    "pronunciation": "ভোরেসিয়াস",
+    "wordDefinition": "Wanting or devouring great quantities of food.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["পেটুক", "অতৃপ্ত", "তীব্র ক্ষুধার্ত"],
+    "synonyms": ["insatiable", "gluttonous", "greedy"],
+    "antonyms": ["satisfied", "full", "content"],
+    "exampleSentences": [
+      "He had a voracious appetite.",
+      "Her voracious reading habit was impressive."
+    ]
+  },
+  {
+    "word": "Wane",
+    "pronunciation": "ওয়েন",
+    "wordDefinition": "To decrease in size, extent, or degree.",
+    "partOfSpeech": "Verb",
+    "meanings": ["কমা", "হ্রাস পাওয়া", "ক্ষয় হওয়া"],
+    "synonyms": ["diminish", "decline", "dwindle"],
+    "antonyms": ["increase", "grow", "rise"],
+    "exampleSentences": [
+      "The moon waned and the night grew darker.",
+      "His influence in the company waned over the years."
+    ]
+  },
+  {
+    "word": "Xenophobia",
+    "pronunciation": "জেনোফোবিয়া",
+    "wordDefinition": "Dislike of or prejudice against people from other countries.",
+    "partOfSpeech": "Noun",
+    "meanings": ["বিদেশভীতি", "বিদেশীদের প্রতি ভয় বা বিদ্বেষ", "বিদেশভীতি"],
+    "synonyms": ["racism", "prejudice", "intolerance"],
+    "antonyms": ["tolerance", "acceptance", "openness"],
+    "exampleSentences": [
+      "Xenophobia can lead to unfair treatment of immigrants.",
+      "The rise in xenophobia has caused concern among human rights groups."
+    ]
+  },
+  {
+    "word": "Yearn",
+    "pronunciation": "ইয়ার্ন",
+    "wordDefinition": "To have an intense feeling of longing for something, typically something that one has lost or been separated from.",
+    "partOfSpeech": "Verb",
+    "meanings": [
+      "আকুলভাবে কামনা করা",
+      "তীব্র আকাঙ্ক্ষা করা",
+      "প্রচণ্ডভাবে চাইতে থাকা"
+    ],
+    "synonyms": ["long", "crave", "desire"],
+    "antonyms": ["reject", "abhor", "despise"],
+    "exampleSentences": [
+      "She yearned for her hometown.",
+      "He yearned to see his family again."
+    ]
+  },
+  {
+    "word": "Zealous",
+    "pronunciation": "জেলাস",
+    "wordDefinition": "Having or showing zeal.",
+    "partOfSpeech": "Adjective",
+    "meanings": ["উদ্দীপ্ত", "আগ্রহী", "উৎসাহী"],
+    "synonyms": ["fervent", "enthusiastic", "passionate"],
+    "antonyms": ["apathetic", "indifferent", "disinterested"],
+    "exampleSentences": [
+      "She was a zealous supporter of the cause.",
+      "His zealous approach to work was appreciated by all."
+    ]
+  }
+]
