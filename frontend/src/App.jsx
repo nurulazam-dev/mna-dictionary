@@ -4,9 +4,10 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import WordDetails from "./pages/WordDetails";
-import AdminDashboard from "./pages/AdminDashboard";
-// import Register from "./pages/Register";
+// import AdminDashboard from "./pages/AdminDashboard";
+import Register from "./pages/Register";
 import "./App.css";
+import NotFound from "./pages/NotFound";
 // import AdminRoute from "./utils/AdminRoute";
 
 function App() {
@@ -16,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        {/* <Route path="/register" element={<Register />} /> */}
+        <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/words/:word" element={<WordDetails />} />
+        <Route path="/words/:id" element={<WordDetails />} />
         {/* <Route
           path="/admin"
           element={
@@ -28,7 +29,8 @@ function App() {
           }
         /> */}
 
-        <Route path="/admin" element={<AdminDashboard />} />
+        {/* <Route path="/admin" element={<AdminDashboard />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
