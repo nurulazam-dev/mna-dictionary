@@ -21,7 +21,7 @@ const Register = () => {
 
     // Send signup request to backend
     try {
-      await axios.post("/api/auth/signup", { email, password });
+      await axios.post("/api/auth/register", { email, password });
       setSuccess(true);
       setEmail("");
       setPassword("");
