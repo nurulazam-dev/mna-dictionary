@@ -1,44 +1,48 @@
-import { useState } from "react";
-import api from "../utils/api";
+import { useContext, useState } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
+  const { login } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await api.post("/auth/login", { email, password });
+      await login(email, password);
       alert("Login successful!");
+      // eslint-disable-next-line no-unused-vars
     } catch (error) {
-      console.error("Login failed:", error.response.data.message);
+      alert("Login failed!");
     }
   };
 
   return (
-    <form onSubmit={handleLogin} className="p-4 max-w-md mx-auto">
-      <h2 className="text-xl font-bold">Login</h2>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
-        className="border p-2 w-full mt-2"
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-        className="border p-2 w-full mt-2"
-      />
-      <button
-        type="submit"
-        className="bg-blue-500 text-white px-4 py-2 mt-2 rounded"
+    <div className="flex justify-center items-center h-screen">
+      <form
+        onSubmit={handleSubmit}
+        className="p-8 bg-white rounded shadow-lg w-96"
       >
-        Login
-      </button>
-    </form>
+        <h2 className="text-2xl font-bold mb-4">Login</h2>
+        <input
+          type="email"
+          placeholder="Email"
+          className="block w-full p-2 border mb-4"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          className="block w-full p-2 border mb-4"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <button type="submit" className="bg-blue-500 text-white w-full py-2">
+          Login
+        </button>
+      </form>
+    </div>
   );
 };
 
