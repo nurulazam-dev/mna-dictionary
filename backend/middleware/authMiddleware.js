@@ -1,7 +1,7 @@
-const jwt = require("jsonwebtoken");
-const User = require("../models/User");
+import User from "../models/UserSchema";
+import jwt from "jsonwebtoken";
 
-const protect = async (req, res, next) => {
+export const authenticate = async (req, res, next) => {
   let token = req.cookies.token || req.headers.authorization;
 
   if (!token) return res.status(401).json({ message: "Not authorized" });
@@ -15,11 +15,9 @@ const protect = async (req, res, next) => {
   }
 };
 
-const adminOnly = (req, res, next) => {
+export const adminOnly = (req, res, next) => {
   if (req.user.role !== "admin") {
     return res.status(403).json({ message: "Admin access required" });
   }
   next();
 };
-
-module.exports = { protect, adminOnly };

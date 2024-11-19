@@ -1,6 +1,6 @@
-const Word = require("../models/WordSchema");
+import Word from "../models/WordSchema";
 
-const searchWord = async (req, res) => {
+export const searchWord = async (req, res) => {
   const { query } = req.query;
 
   if (!query) return res.status(400).json({ message: "Search query missing" });
@@ -9,7 +9,7 @@ const searchWord = async (req, res) => {
   res.json(words);
 };
 
-const addWord = async (req, res) => {
+export const addWord = async (req, res) => {
   const {
     word,
     pronunciation,
@@ -37,5 +37,3 @@ const addWord = async (req, res) => {
   });
   res.status(201).json({ message: "Word added successfully", newWord });
 };
-
-module.exports = { searchWord, addWord };

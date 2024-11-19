@@ -1,9 +1,10 @@
-const express = require("express");
-const { protect, adminOnly } = require("../middleware/authMiddleware");
-const { searchWord, addWord } = require("../controllers/wordController");
+import express from "express";
+import { authenticate, adminOnly } from "../middleware/authMiddleware";
+import { searchWord, addWord } from "../controllers/wordController";
 
 const router = express.Router();
-router.get("/search", protect, searchWord);
-router.post("/add", protect, adminOnly, addWord);
 
-module.exports = router;
+router.get("/search", authenticate, searchWord);
+router.post("/add", authenticate, adminOnly, addWord);
+
+export default router;
