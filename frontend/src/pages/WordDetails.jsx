@@ -1,44 +1,20 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import api from "../utils/api";
+/* eslint-disable react/prop-types */
+import { useSpeechSynthesis } from "react-speech-kit";
 
-const WordDetails = () => {
-  const { word } = useParams();
-  const [details, setDetails] = useState({});
-
-  useEffect(() => {
-    const fetchDetails = async () => {
-      try {
-        const { data } = await api.get(`/words/${word}`);
-        setDetails(data);
-      } catch (error) {
-        console.error(
-          "Error fetching word details:",
-          error.response.data.message
-        );
-      }
-    };
-    fetchDetails();
-  }, [word]);
+const WordDetails = ({ word }) => {
+  const { speak } = useSpeechSynthesis();
 
   return (
-    <div className="p-4 max-w-2xl mx-auto">
-      <h2 className="text-2xl font-bold">{details.word}</h2>
-      <p>
-        <strong>Part of Speech:</strong> {details.partOfSpeech}
-      </p>
-      <p>
-        <strong>Definition:</strong> {details.definition}
-      </p>
-      <p>
-        <strong>Example:</strong> {details.example}
-      </p>
-      <p>
-        <strong>Synonyms:</strong> {details.synonyms?.join(", ")}
-      </p>
-      <p>
-        <strong>Antonyms:</strong> {details.antonyms?.join(", ")}
-      </p>
+    <div className="p-4">
+      <h1 className="text-3xl font-bold">{word.word}</h1>
+      <p>{word.definition}</p>
+      <p>Part of Speech: {word.partOfSpeech}</p>
+      <button
+        onClick={() => speak({ text: word.definition })}
+        className="bg-blue-500 text-white py-2 px-4 mt-4"
+      >
+        Listen to Pronunciation
+      </button>
     </div>
   );
 };
