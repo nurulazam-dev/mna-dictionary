@@ -9,6 +9,15 @@ const JWT_SECRET = process.env.JWT_SECRET;
 // router.post("/register", registerUser);
 // router.post("/login", loginUser);
 
+// Middleware to check if user is admin
+const isAdmin = (req, res, next) => {
+  if (req.user && req.user.role === "admin") {
+    return next();
+  } else {
+    return res.status(403).json({ message: "Access denied" });
+  }
+};
+
 // Sign Up Route
 router.post("/register", async (req, res) => {
   const { email, password } = req.body;
@@ -53,6 +62,28 @@ router.post("/login", async (req, res) => {
 router.post("/logout", (req, res) => {
   res.clearCookie("token");
   res.status(200).send("Logged out");
+});
+
+// Get all users (Admin only)
+router.get("/users", isAdmin, async (req, res) => {
+  try {
+    const users = await User.find();
+    res.status(200).json(users);
+  } catch (err) {
+    res.status(500).json({ message: "Failed to fetch users" });
+  }
+});
+
+// Deactivate a user (Admin only)
+router.put("/deactivate-user/:id", isAdmin, async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    user.active = false;
+    await user.save();
+    res.status(200).json({ message: "User deactivated successfully" });
+  } catch (err) {
+    res.status(500).json({ message: "Failed to deactivate user" });
+  }
 });
 
 export default router;
