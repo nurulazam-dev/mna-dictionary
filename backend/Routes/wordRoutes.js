@@ -1,6 +1,7 @@
 import express from "express";
 import jwt from "jsonwebtoken";
 import Word from "../models/Word.js";
+import User from "../models/User.js";
 
 const router = express.Router();
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -116,6 +117,26 @@ router.delete("/delete-word/:id", isAdmin, async (req, res) => {
     res.status(200).json({ message: "Word deleted successfully" });
   } catch (err) {
     res.status(500).json({ message: "Failed to delete word" });
+  }
+});
+
+// fetching search history
+router.get("/search-history", async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).select("searchHistory");
+    res.status(200).json(user.searchHistory || []);
+  } catch (err) {
+    res.status(500).json({ message: "Error fetching search history." });
+  }
+});
+
+// fetching bookmarks
+router.get("/bookmarks", async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).select("bookmarks");
+    res.status(200).json(user.bookmarks || []);
+  } catch (err) {
+    res.status(500).json({ message: "Error fetching bookmarks." });
   }
 });
 

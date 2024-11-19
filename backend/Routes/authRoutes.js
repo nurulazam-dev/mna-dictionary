@@ -86,4 +86,14 @@ router.put("/deactivate-user/:id", isAdmin, async (req, res) => {
   }
 });
 
+// fetching user profile
+router.get("/profile", async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id);
+    res.status(200).json(user);
+  } catch (err) {
+    res.status(500).json({ message: "Error fetching user profile." });
+  }
+});
+
 export default router;
