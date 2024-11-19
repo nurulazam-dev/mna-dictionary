@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
 import authRoutes from "./routes/authRoutes.js";
+import wordRoutes from "./routes/wordRoutes.js";
 
 dotenv.config();
 
@@ -37,6 +38,7 @@ const connectDB = async () => {
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors(corsOption));
+
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/words", wordRoutes);
 
