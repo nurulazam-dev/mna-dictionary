@@ -6,9 +6,6 @@ import User from "../models/User.js";
 const router = express.Router();
 const JWT_SECRET = process.env.JWT_SECRET;
 
-// router.post("/register", registerUser);
-// router.post("/login", loginUser);
-
 // Middleware to check if user is admin
 const isAdmin = (req, res, next) => {
   if (req.user && req.user.role === "admin") {
@@ -18,9 +15,11 @@ const isAdmin = (req, res, next) => {
   }
 };
 
-// Sign Up Route
+/* ==============================
+          Sign Up Route
+=================================*/
 router.post("/register", async (req, res) => {
-  const { email, password } = req.body;
+  const { name, email, password } = req.body;
 
   // Check if user already exists
   const existingUser = await User.findOne({ email });
@@ -32,7 +31,7 @@ router.post("/register", async (req, res) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
   // Create and save the user
-  const newUser = new User({ email, password: hashedPassword });
+  const newUser = new User({ name, email, password: hashedPassword });
 
   try {
     await newUser.save();
@@ -42,7 +41,9 @@ router.post("/register", async (req, res) => {
   }
 });
 
-// Login Route
+/* ==============================
+          Login Route
+=================================*/
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
@@ -53,18 +54,22 @@ router.post("/login", async (req, res) => {
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) return res.status(400).send("Invalid credentials");
 
-  const token = jwt.encode({ userId: user._id }, JWT_SECRET);
+  const token = jwt.decode({ userId: user._id }, JWT_SECRET);
   res.cookie("token", token, { httpOnly: true });
   res.status(200).send("Logged in successfully");
 });
 
-// Logout Route
+/* ==============================
+          Logout Route
+=================================*/
 router.post("/logout", (req, res) => {
   res.clearCookie("token");
   res.status(200).send("Logged out");
 });
 
-// Get all users (Admin only)
+/* ==============================
+    Get all users (Admin only)
+=================================*/
 router.get("/users", isAdmin, async (req, res) => {
   try {
     const users = await User.find();

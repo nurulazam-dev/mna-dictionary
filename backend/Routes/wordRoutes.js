@@ -46,7 +46,21 @@ router.get("/:id", isAuthenticated, async (req, res) => {
   }
 });
 
-// Word Submission (Admin only)
+/* ==============================
+    Get all words (Admin only)
+=================================*/
+router.get("/", isAdmin, async (req, res) => {
+  try {
+    const words = await Word.find();
+    res.status(200).json(words);
+  } catch (err) {
+    res.status(500).json({ message: "Failed to fetch words" });
+  }
+});
+
+/* ==================================
+    Word Add/Submission (Admin only)
+====================================*/
 router.post("/add-word", isAdmin, async (req, res) => {
   const {
     word,
@@ -77,7 +91,9 @@ router.post("/add-word", isAdmin, async (req, res) => {
   }
 });
 
-// Edit a word (Admin only)
+/* ==============================
+    Edit a word (Admin only)
+=================================*/
 router.put("/edit-word/:id", isAdmin, async (req, res) => {
   const {
     word,
@@ -110,7 +126,9 @@ router.put("/edit-word/:id", isAdmin, async (req, res) => {
   }
 });
 
-// Delete a word (Admin only)
+/* ==============================
+    Delete a word (Admin only)
+=================================*/
 router.delete("/delete-word/:id", isAdmin, async (req, res) => {
   try {
     await Word.findByIdAndDelete(req.params.id);

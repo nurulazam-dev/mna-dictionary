@@ -40,6 +40,7 @@ app.use(express.json());
 app.use(cors(corsOption));
 
 app.use("/api/v1/auth", authRoutes);
+// app.use("/api/v1/admin", adminRoutes);
 app.use("/api/v1/words", wordRoutes);
 
 app.listen(port, () => {
