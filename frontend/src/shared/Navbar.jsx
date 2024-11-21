@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg">
+    <nav className="bg-slate-50 text-black font-bold shadow">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold tracking-wide">
@@ -39,26 +39,18 @@ const Navbar = () => {
 
           {/* User Authentication Links */}
           {!isLoggedIn ? (
-            <>
-              <Link
-                to="/login"
-                className="px-4 py-2 bg-blue-700 rounded hover:bg-blue-800 transition"
-              >
-                Login
-              </Link>
-              <Link
-                to="/register"
-                className="px-4 py-2 bg-blue-700 rounded hover:bg-blue-800 transition"
-              >
-                Register
-              </Link>
-            </>
+            <Link
+              to="/login"
+              className="px-4 py-2 bg-violet-600 rounded hover:bg-green-600 transition text-white"
+            >
+              Login
+            </Link>
           ) : (
             <div className="flex items-center space-x-4">
               <span className="font-medium">Hello, {username}</span>
               <button
                 onClick={handleLogout}
-                className="px-4 py-2 bg-red-500 rounded hover:bg-red-600 transition"
+                className="px-4 py-2 bg-green-600 text-white rounded hover:bg-red-600 transition"
               >
                 Logout
               </button>
@@ -146,26 +138,15 @@ const Navbar = () => {
             </Link>
           </li>
           {!isLoggedIn ? (
-            <>
-              <li>
-                <Link
-                  to="/login"
-                  className="block px-4 py-3 hover:bg-blue-700"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/register"
-                  className="block px-4 py-3 hover:bg-blue-700"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Register
-                </Link>
-              </li>
-            </>
+            <li>
+              <Link
+                to="/login"
+                className="block px-4 py-3 hover:bg-blue-700"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Login
+              </Link>
+            </li>
           ) : (
             <li>
               <button
