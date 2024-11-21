@@ -3,38 +3,68 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // Simulating user login state
+  const [username, setUsername] = useState("John Doe"); // Simulating logged-in user's name
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setUsername("");
+  };
 
   return (
-    <nav className="bg-blue-600 text-white shadow">
+    <nav className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
-        <Link to="/" className="text-lg font-bold">
+        <Link to="/" className="text-xl font-bold tracking-wide">
           DictionaryApp
         </Link>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex space-x-6">
-          <li>
-            <Link to="/" className="hover:text-blue-300">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="hover:text-blue-300">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/dictionary" className="hover:text-blue-300">
-              Dictionary
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="hover:text-blue-300">
-              Contact
-            </Link>
-          </li>
-        </ul>
+        <div className="hidden md:flex items-center space-x-6">
+          <Link to="/" className="hover:text-gray-200 transition">
+            Home
+          </Link>
+          <Link to="/about" className="hover:text-gray-200 transition">
+            About
+          </Link>
+          <Link to="/dictionary" className="hover:text-gray-200 transition">
+            Dictionary
+          </Link>
+          <Link to="/contact" className="hover:text-gray-200 transition">
+            Contact
+          </Link>
+          <Link to="/favorites" className="hover:text-gray-200 transition">
+            Favorites
+          </Link>
+
+          {/* User Authentication Links */}
+          {!isLoggedIn ? (
+            <>
+              <Link
+                to="/login"
+                className="px-4 py-2 bg-blue-700 rounded hover:bg-blue-800 transition"
+              >
+                Login
+              </Link>
+              <Link
+                to="/register"
+                className="px-4 py-2 bg-blue-700 rounded hover:bg-blue-800 transition"
+              >
+                Register
+              </Link>
+            </>
+          ) : (
+            <div className="flex items-center space-x-4">
+              <span className="font-medium">Hello, {username}</span>
+              <button
+                onClick={handleLogout}
+                className="px-4 py-2 bg-red-500 rounded hover:bg-red-600 transition"
+              >
+                Logout
+              </button>
+            </div>
+          )}
+        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -65,49 +95,89 @@ const Navbar = () => {
             )}
           </svg>
         </button>
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <ul className="absolute top-16 left-0 w-full bg-blue-600 shadow-md md:hidden">
-            <li className="border-b border-blue-500">
-              <Link
-                to="/"
-                className="block px-4 py-3 hover:bg-blue-500"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Home
-              </Link>
-            </li>
-            <li className="border-b border-blue-500">
-              <Link
-                to="/about"
-                className="block px-4 py-3 hover:bg-blue-500"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-            </li>
-            <li className="border-b border-blue-500">
-              <Link
-                to="/dictionary"
-                className="block px-4 py-3 hover:bg-blue-500"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Dictionary
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="block px-4 py-3 hover:bg-blue-500"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        )}
       </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <ul className="md:hidden bg-blue-600 text-white">
+          <li>
+            <Link
+              to="/"
+              className="block px-4 py-3 hover:bg-blue-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className="block px-4 py-3 hover:bg-blue-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/dictionary"
+              className="block px-4 py-3 hover:bg-blue-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Dictionary
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="block px-4 py-3 hover:bg-blue-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/favorites"
+              className="block px-4 py-3 hover:bg-blue-700"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Favorites
+            </Link>
+          </li>
+          {!isLoggedIn ? (
+            <>
+              <li>
+                <Link
+                  to="/login"
+                  className="block px-4 py-3 hover:bg-blue-700"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/register"
+                  className="block px-4 py-3 hover:bg-blue-700"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Register
+                </Link>
+              </li>
+            </>
+          ) : (
+            <li>
+              <button
+                onClick={handleLogout}
+                className="block w-full text-left px-4 py-3 hover:bg-red-600"
+              >
+                Logout
+              </button>
+            </li>
+          )}
+        </ul>
+      )}
     </nav>
   );
 };
