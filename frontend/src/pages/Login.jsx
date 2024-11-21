@@ -1,12 +1,18 @@
-import { useContext, useState } from "react";
-import { AuthContext } from "../context/AuthContext";
+/* import { useContext, useState } from "react";
+import { AuthContext } from "../context/AuthContext"; */
+
+import { useState } from "react";
 
 const Login = () => {
-  const { login } = useContext(AuthContext);
+  // const { login } = useContext(AuthContext);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(email, password);
+  };
+  /* const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       await login(email, password);
@@ -15,7 +21,7 @@ const Login = () => {
     } catch (error) {
       alert("Login failed!");
     }
-  };
+  }; */
 
   return (
     <div className="flex justify-center items-center h-screen">
