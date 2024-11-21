@@ -36,7 +36,9 @@ router.get("/search", isAuthenticated, async (req, res) => {
   }
 });
 
-// Word Details
+/* ==============================
+    Get single Word Details
+=================================*/
 router.get("/:id", isAuthenticated, async (req, res) => {
   try {
     const word = await Word.findById(req.params.id);
