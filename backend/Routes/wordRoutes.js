@@ -26,7 +26,8 @@ const isAdmin = (req, res, next) => {
 };
 
 // Word Search
-router.get("/search", isAuthenticated, async (req, res) => {
+// router.get("/search", isAuthenticated, async (req, res) => {
+router.get("/search", async (req, res) => {
   const { query } = req.query;
   try {
     const words = await Word.find({ word: { $regex: query, $options: "i" } });
@@ -39,6 +40,7 @@ router.get("/search", isAuthenticated, async (req, res) => {
 /* ==============================
     Get single Word Details
 =================================*/
+// router.get("/:id", isAuthenticated, async (req, res) => {
 router.get("/:id", isAuthenticated, async (req, res) => {
   try {
     const word = await Word.findById(req.params.id);

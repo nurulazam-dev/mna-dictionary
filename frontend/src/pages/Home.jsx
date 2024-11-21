@@ -6,7 +6,9 @@ const Home = () => {
   const [results, setResults] = useState([]);
 
   const handleSearch = async () => {
-    const response = await axios.get(`/api/words/search?query=${query}`);
+    const response = await axios.get(
+      `http://localhost:5000/api/v1/words/search?query=${query}`
+    );
     setResults(response.data);
   };
 
@@ -27,7 +29,7 @@ const Home = () => {
       </button>
 
       <ul className="mt-4">
-        {results.map((word) => (
+        {results?.map((word) => (
           <li key={word._id} className="border-b py-2">
             {word.word}
           </li>

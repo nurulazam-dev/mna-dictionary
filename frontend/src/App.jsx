@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
@@ -8,6 +7,7 @@ import WordDetails from "./pages/WordDetails";
 import Register from "./pages/Register";
 import "./App.css";
 import NotFound from "./pages/NotFound";
+import Navbar from "./shared/Navbar";
 // import AdminRoute from "./utils/AdminRoute";
 
 function App() {
