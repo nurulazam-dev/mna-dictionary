@@ -10,7 +10,7 @@ const WordDetails = ({ word }) => {
       <p>{word.definition}</p>
       <p>Part of Speech: {word.partOfSpeech}</p>
       <button
-        onClick={() => speak({ text: word.definition })}
+        onClick={() => speak({ text: word.word })}
         className="bg-blue-500 text-white py-2 px-4 mt-4"
       >
         Listen to Pronunciation

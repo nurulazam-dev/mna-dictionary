@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { BASE_URL } from "../config";
 
 const UserDashboard = () => {
   const [user, setUser] = useState({});
@@ -11,13 +12,15 @@ const UserDashboard = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const userResponse = await axios.get("/api/user/profile");
+        const userResponse = await axios.get(`${BASE_URL}/user/profile`);
         setUser(userResponse.data);
 
-        const historyResponse = await axios.get("/api/user/search-history");
+        const historyResponse = await axios.get(
+          `${BASE_URL}/user/search-history`
+        );
         setSearchHistory(historyResponse.data);
 
-        const bookmarkResponse = await axios.get("/api/user/bookmarks");
+        const bookmarkResponse = await axios.get(`${BASE_URL}/user/bookmarks`);
         setBookmarkedWords(bookmarkResponse.data);
       } catch (err) {
         console.error("Error fetching user data:", err);

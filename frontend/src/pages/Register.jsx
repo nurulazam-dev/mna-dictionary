@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { BASE_URL } from "../config";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -21,7 +22,7 @@ const Register = () => {
 
     // Send signup request to backend
     try {
-      await axios.post("/api/auth/register", { email, password });
+      await axios.post(`${BASE_URL}/auth/register`, { email, password });
       setSuccess(true);
       setEmail("");
       setPassword("");

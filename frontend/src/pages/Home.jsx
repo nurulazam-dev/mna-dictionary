@@ -1,14 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
+import { BASE_URL } from "../config";
 
 const Home = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
 
   const handleSearch = async () => {
-    const response = await axios.get(
-      `http://localhost:5000/api/v1/words/search?query=${query}`
-    );
+    const response = await axios.get(`${BASE_URL}/words/search?query=${query}`);
     setResults(response.data);
   };
 
