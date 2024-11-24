@@ -5,6 +5,7 @@ import express from "express";
 import mongoose from "mongoose";
 import authRoutes from "./routes/authRoutes.js";
 import wordRoutes from "./routes/wordRoutes.js";
+import connectDB from "./config/db.js";
 
 dotenv.config();
 
@@ -13,34 +14,21 @@ const port = process.env.PORT || 8000;
 
 const corsOption = {
   origin: true,
+  methods: "GET,POST,PUT,DELETE",
+  credentials: true,
 };
 
 app.get("/", (req, res) => {
   res.send("MNA_Dictionary's Api is working");
 });
 
-// DB_Connection
-mongoose.set("strictQuery", false);
-const connectDB = async () => {
-  try {
-    // await mongoose.connect(process.env.LOCAL_DATABASE, {
-    await mongoose.connect(process.env.MONGODB_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-    console.log("MongoDB is connected");
-  } catch (err) {
-    console.log("MongoDB connection fail");
-  }
-};
-
 // middleware
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors(corsOption));
 
+// Routes
 app.use("/api/v1/auth", authRoutes);
-// app.use("/api/v1/admin", adminRoutes);
 app.use("/api/v1/words", wordRoutes);
 
 app.listen(port, () => {
