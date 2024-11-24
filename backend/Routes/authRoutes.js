@@ -1,104 +1,10 @@
 import express from "express";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-import User from "../models/User.js";
+import { login, logout, register } from "../controllers/authController.js";
 
 const router = express.Router();
-const JWT_SECRET = process.env.JWT_SECRET;
 
-// Middleware to check if user is admin
-const isAdmin = (req, res, next) => {
-  if (req.user && req.user.role === "admin") {
-    return next();
-  } else {
-    return res.status(403).json({ message: "Access denied" });
-  }
-};
-
-/* ==============================
-          Sign Up Route
-=================================*/
-router.post("/register", async (req, res) => {
-  const { name, email, password } = req.body;
-
-  // Check if user already exists
-  const existingUser = await User.findOne({ email });
-  if (existingUser) {
-    return res.status(400).json({ message: "User already exists" });
-  }
-
-  // Hash the password
-  const hashedPassword = await bcrypt.hash(password, 10);
-
-  // Create and save the user
-  const newUser = new User({ name, email, password: hashedPassword });
-
-  try {
-    await newUser.save();
-    res.status(201).send("User created");
-  } catch (err) {
-    res.status(400).send(err.message);
-  }
-});
-
-/* ==============================
-          Login Route
-=================================*/
-router.post("/login", async (req, res) => {
-  const { email, password } = req.body;
-
-  const user = await User.findOne({ email });
-
-  if (!user) return res.status(404).send("User not found");
-
-  const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) return res.status(400).send("Invalid credentials");
-
-  const token = jwt.decode({ userId: user._id }, JWT_SECRET);
-  res.cookie("token", token, { httpOnly: true });
-  res.status(200).send("Logged in successfully");
-});
-
-/* ==============================
-          Logout Route
-=================================*/
-router.post("/logout", (req, res) => {
-  res.clearCookie("token");
-  res.status(200).send("Logged out");
-});
-
-/* ==============================
-    Get all users (Admin only)
-=================================*/
-router.get("/users", isAdmin, async (req, res) => {
-  try {
-    const users = await User.find();
-    res.status(200).json(users);
-  } catch (err) {
-    res.status(500).json({ message: "Failed to fetch users" });
-  }
-});
-
-// Deactivate a user (Admin only)
-router.put("/deactivate-user/:id", isAdmin, async (req, res) => {
-  try {
-    const user = await User.findById(req.params.id);
-    user.active = false;
-    await user.save();
-    res.status(200).json({ message: "User deactivated successfully" });
-  } catch (err) {
-    res.status(500).json({ message: "Failed to deactivate user" });
-  }
-});
-
-// fetching user profile
-router.get("/profile", async (req, res) => {
-  try {
-    const user = await User.findById(req.user.id);
-    res.status(200).json(user);
-  } catch (err) {
-    res.status(500).json({ message: "Error fetching user profile." });
-  }
-});
+router.post("/register", register);
+router.post("/login", login);
+router.post("/logout", logout);
 
 export default router;
