@@ -1,18 +1,24 @@
 import mongoose from "mongoose";
-// import bcrypt from "bcryptjs";
+import bcrypt from "bcryptjs";
 
-const UserSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
-  role: { type: String, enum: ["user", "admin"], default: "user" },
-  // searchLimit: { type: Number, default: 100 }, // Daily search limit
+const userSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    role: { type: String, enum: ["user", "admin"], default: "user" },
+    searchHistory: [{ type: String }],
+    bookmarkedWords: [{ type: String }],
+  },
+  { timestamps: true }
+);
+
+// Hash password before saving
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+  const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+  next();
 });
 
-/* UserSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
-  this.password = await bcrypt.hash(this.password, 12);
-  next();
-}); */
-
-export default mongoose.model("User", UserSchema);
+export default mongoose.model("User", userSchema);
