@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">
-              DictionaryApp
+              MNA Dictionary
             </h2>
             <p className="text-sm">
               Discover, learn, and grow with the most comprehensive dictionary
@@ -134,7 +134,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} DictionaryApp. All Rights
+            &copy; {new Date().getFullYear()} MNA Dictionary. All Rights
             Reserved.
           </p>
           <div className="space-x-4 mt-4 md:mt-0">
