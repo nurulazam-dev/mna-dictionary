@@ -59,10 +59,6 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 - **Node.js**: Server-side JavaScript runtime environment.
 - **Express.js**: Framework for API routing and middleware.
 
-### **Database**
-
-- **MongoDB**: NoSQL database for storing dictionary entries, user profiles, and search history.
-
 ---
 
 ## Usage
