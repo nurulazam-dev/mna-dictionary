@@ -63,14 +63,6 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 - **MongoDB**: NoSQL database for storing dictionary entries, user profiles, and search history.
 
-### **Tools & Libraries**
-
-- **Mongoose**: MongoDB Object Data Modeling (ODM).
-- **JWT (JSON Web Tokens)**: For secure authentication.
-- **bcrypt.js**: For secure password hashing.
-- **Axios**: For handling HTTP requests from the frontend.
-- **Text-to-Speech API**: For word pronunciation playback.
-
 ---
 
 ## Usage
