@@ -106,7 +106,7 @@ yarn run dev
 yarn start
 ```
 
-#### Use Library & Framework in Client/Frontend
+#### Used Library & Framework in Client/Frontend
 
 `React`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,`React firebase hooks`, `React hook form`,`react/TanStack query`, `Google firebase`,
 
