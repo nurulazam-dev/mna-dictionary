@@ -7,4 +7,4 @@ const router = express.Router();
 router.get("/users", isAuthenticated, isAdmin, getUsers);
 router.delete("/users/:id", isAuthenticated, isAdmin, deleteUser);
 
-module.exports = router;
+export default router;
