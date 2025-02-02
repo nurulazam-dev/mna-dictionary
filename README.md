@@ -52,7 +52,6 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 - **React.js**: For building a dynamic, responsive user interface.
 - **React Router**: For seamless client-side routing.
-- **Tailwind CSS**: For responsive design and styling.
 
 ---
 
