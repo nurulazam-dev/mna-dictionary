@@ -46,12 +46,6 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 ---
 
-## Technical Stack
-
-### **Frontend**
-
-- **React.js**: For building a dynamic, responsive user interface.
-
 ---
 
 ## Usage
