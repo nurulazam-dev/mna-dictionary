@@ -51,6 +51,12 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 ---
 
+#### Used Library & Framework in Client/Frontend
+
+`React`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,`React firebase hooks`, `React hook form`,`react/TanStack query`, `Google firebase`,
+
+---
+
 ### License:
 
 This project is licensed under the [MIT License](LICENSE).
@@ -72,10 +78,6 @@ yarn run dev
 ```bash
 yarn start
 ```
-
-#### Used Library & Framework in Client/Frontend
-
-`React`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,`React firebase hooks`, `React hook form`,`react/TanStack query`, `Google firebase`,
 
 #### Use Library & Framework in Server/Backend
 
