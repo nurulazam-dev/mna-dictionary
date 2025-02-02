@@ -55,6 +55,10 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 
 `React`, `Tailwind CSS`, `react-router-dom`, `react-icons`, `react-spinners`, `react-toastify`, `swiper`, `Google fonts`,`React firebase hooks`, `React hook form`,`react/TanStack query`, `Google firebase`,
 
+#### Use Library & Framework in Server/Backend
+
+`express`, `mongodb`, `mongoose`, `cors`, `jsonwebtoken`, `cookie-parser`, `dotenv`, `bcryptjs`, `stripe`,`express-rate-limit`
+
 ---
 
 ### License:
@@ -78,7 +82,3 @@ yarn run dev
 ```bash
 yarn start
 ```
-
-#### Use Library & Framework in Server/Backend
-
-`express`, `mongodb`, `mongoose`, `cors`, `jsonwebtoken`, `cookie-parser`, `dotenv`, `bcryptjs`, `stripe`,`express-rate-limit`
