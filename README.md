@@ -44,7 +44,7 @@ A responsive and dynamic dictionary web application built using the MERN stack (
 - **Favorites/Bookmark**: Save frequently searched words for future reference.
 - **Dark Mode**: Toggle between light and dark themes for a personalized experience.
 
-### 5. Usage
+### 5. \*Usage
 
 - **User**: Sign up, log in, and search for words. View definitions and bookmark frequently searched words.
 - **Admin**: Log in to manage dictionary entries (add/edit/delete).
